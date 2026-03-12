@@ -1,0 +1,16 @@
+# Pipeline outputs (generated data, not code)
+stage*.csv
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+.env
+*.key
